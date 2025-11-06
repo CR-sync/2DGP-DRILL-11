@@ -151,3 +151,5 @@ fabric.properties
 # *.ipr
 
 # End of https://www.gitignore.io/api/python,pycharm
+__pycache__/play_mode.cpython-313.pyc
+__pycache__/zombie.cpython-313.pyc
