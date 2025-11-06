@@ -80,5 +80,6 @@ def remove_object(o):
             layer.remove(o) #객체를 지울 때
             remove_collision_object(o)  #collision 그룹에서도 collision pair로 부터 지워줌
             return
+    return
 
     raise ValueError('Cannot delete non existing object')
