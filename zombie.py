@@ -83,4 +83,3 @@ class Zombie:
 
         elif group == 'boy:zombie':
             pass
-
