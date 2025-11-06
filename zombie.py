@@ -77,5 +77,7 @@ class Zombie:
                 self.hit+=1
                 if self.hit==1:
                     self.scale = 0.5
-                #game_world.remove_object(self)
+                else:
+                    self.hit=0
+                    game_world.remove_object(self)
 
