@@ -60,5 +60,6 @@ class Zombie:
         return self.x - 65, self.y - 95, self.x + 65, self.y + 80
 
     def handle_event(self, group, other):
-        pass
+        if group == 'zombie:ball':
+            game_world.remove_object(self)
 
