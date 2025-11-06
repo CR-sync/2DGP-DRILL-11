@@ -59,6 +59,6 @@ class Zombie:
     def get_bb(self):
         return self.x - 65, self.y - 95, self.x + 65, self.y + 80
 
-    def handle_event(self, event):
+    def handle_event(self, group, other):
         pass
 
